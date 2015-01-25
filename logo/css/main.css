@@ -1,0 +1,128 @@
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.logoContainer {
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    top: 50%;
+    left: 50%;
+    margin-top: -5em;
+    margin-left: -5em;
+}
+
+.logoContainer h1 {
+    margin: 0;
+}
+
+.options {
+    position: absolute;
+    width: 700px;
+    height: 50px;
+    top: 50%;
+    left: 50%;
+    margin-top: -2.5em;
+    margin-left: -7.5em;
+}
+
+.options a:not(:first-child) {
+    padding-left: 10px;
+}
+
+/* Oxygen font - Default */
+h1.Oxygen {
+    font-weight: 300;
+    font-family: 'Oxygen', sans-serif;
+}
+
+h1.Oxygen .free{
+    font-weight: 700;
+}
+
+h1.Oxygen .code {
+    font-weight: 400;
+}
+
+h1.Oxygen span:not(:first-child) {
+    margin-left: -0.25em;
+}
+
+/* Oswald font - Default */
+h1.Oswald {
+    font-weight: 300;
+    font-family: 'Oswald', sans-serif;
+}
+
+h1.Oswald .free{
+    font-weight: 700;
+}
+
+h1.Oswald .code {
+    font-weight: 400;
+}
+
+h1.Oswald span:not(:first-child) {
+    margin-left: -0.15em;
+}
+
+/* Montserrat font - Default */
+h1.Montserrat {
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1.Montserrat .free{
+    font-weight: 700;
+}
+
+h1.Montserrat .code {
+    font-weight: 400;
+}
+
+h1.Montserrat span:not(:first-child) {
+    margin-left: -0.25em;
+}
+
+/* Lato font - Default */
+h1.Lato {
+    font-weight: 300;
+    font-family: 'Lato', sans-serif;
+}
+
+h1.Lato .free{
+    font-weight: 700;
+}
+
+h1.Lato .code {
+    font-weight: 400;
+}
+
+h1.Lato span:not(:first-child) {
+    margin-left: -0.2em;
+}
+
+/* Kreon font - Default */
+h1.Kreon {
+    font-weight: 300;
+    font-family: 'Kreon', serif;
+}
+
+h1.Kreon .free{
+    font-weight: 700;
+}
+
+h1.Kreon .code {
+    font-weight: 400;
+}
+
+h1.Kreon span:not(:first-child) {
+    margin-left: -0.21em;
+}
+
+h1.Kreon span:last-child {
+    margin-left: -0.25em;
+}
+
+
